@@ -1,0 +1,66 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (in case scripts get added)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node (in case tooling gets added)
+node_modules/
+npm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# OneDrive junk
+~$*
+*.tmp
+
+# Local scratch
+scratch/
+tmp/
+
+# Engagement content (potentially sensitive) — keep only READMEs
+engagements/*
+!engagements/README.md
+!engagements/*/
+engagements/*/*
+!engagements/*/README.md
+
+# Outputs (potentially sensitive) — keep only READMEs
+outputs/*
+!outputs/README.md
+!outputs/*/
+outputs/*/*
+!outputs/*/README.md
+
+# Agent outputs (transient working files — the whole folder is ignored;
+# move a file out to another folder to track it in git)
+agent-outputs/
+
+# Threat-detection test specimens — local-only eval fixtures. Specimen 2 contains
+# intentional, benign attack-shaped content (fake credential names + an exfil
+# instruction); kept out of the shared repo on purpose.
+firm-skills-library/threat-detection/test-specimens/
+
+# Regulatory Scanner — local-only prompt working files, not for shared repo
+Prompts/Regulatory Scanner/
