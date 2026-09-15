@@ -3,7 +3,22 @@ name: senior-engineer
 description: Use this agent when writing code, debugging an issue, reviewing someone else's code, designing a system architecture, or refactoring legacy code. Examples — "implement this feature end to end", "debug why this endpoint is timing out", "review this PR for correctness and security", "design the architecture for this service".
 model: sonnet
 color: orange
-skills: audit-prompt, build-eval-dataset, chain-prompts, design-agent-system, design-automation, design-eval-framework, develop-strategy, engineer-prompts, evaluate-ai-output, produce-deliverable, refactor-prompt, score-prompt-quality, skill-creator, synthesize-research
+skills:
+  - audit-prompt
+  - build-eval-dataset
+  - build-slide-deck
+  - chain-prompts
+  - design-agent-system
+  - design-automation
+  - design-eval-framework
+  - develop-strategy
+  - engineer-prompts
+  - evaluate-ai-output
+  - produce-deliverable
+  - refactor-prompt
+  - score-prompt-quality
+  - skill-creator
+  - synthesize-research
 context: fork
 ---
 

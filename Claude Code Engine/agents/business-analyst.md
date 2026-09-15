@@ -3,7 +3,22 @@ name: business-analyst
 description: Use this agent when building a business case, evaluating options, analyzing data, doing scenario planning, framing a strategic recommendation, or running an ROI analysis. Examples — "build the business case for migrating to X", "what are the tradeoffs between these three vendor options", "model the ROI on this initiative".
 model: sonnet
 color: yellow
-skills: audit-prompt, build-eval-dataset, chain-prompts, design-agent-system, design-automation, design-eval-framework, develop-strategy, engineer-prompts, evaluate-ai-output, produce-deliverable, refactor-prompt, score-prompt-quality, skill-creator, synthesize-research
+skills:
+  - audit-prompt
+  - build-eval-dataset
+  - build-slide-deck
+  - chain-prompts
+  - design-agent-system
+  - design-automation
+  - design-eval-framework
+  - develop-strategy
+  - engineer-prompts
+  - evaluate-ai-output
+  - produce-deliverable
+  - refactor-prompt
+  - score-prompt-quality
+  - skill-creator
+  - synthesize-research
 context: fork
 ---
 

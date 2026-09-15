@@ -3,7 +3,22 @@ name: workspace-architect
 description: Use this agent when auditing, organizing, or maintaining project directory structures — when a project is growing unwieldy, you can't find something, you're starting a new project, or you want to check hygiene across a workspace. Examples — "audit this repo's folder structure", "where did I save the Q2 client deck", "scaffold a folder structure for a new engagement", "clean up root-level clutter in this project".
 model: sonnet
 color: indigo
-skills: audit-prompt, build-eval-dataset, chain-prompts, design-agent-system, design-automation, design-eval-framework, develop-strategy, engineer-prompts, evaluate-ai-output, produce-deliverable, refactor-prompt, score-prompt-quality, skill-creator, synthesize-research
+skills:
+  - audit-prompt
+  - build-eval-dataset
+  - build-slide-deck
+  - chain-prompts
+  - design-agent-system
+  - design-automation
+  - design-eval-framework
+  - develop-strategy
+  - engineer-prompts
+  - evaluate-ai-output
+  - produce-deliverable
+  - refactor-prompt
+  - score-prompt-quality
+  - skill-creator
+  - synthesize-research
 context: fork
 ---
 

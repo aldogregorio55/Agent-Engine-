@@ -3,7 +3,22 @@ name: research-analyst
 description: Use this agent for research questions, synthesis tasks, source gathering, validating claims, or understanding a domain before acting in it. Examples — "research the competitive landscape for X", "validate this claim against credible sources", "synthesize what's known about Y before we design a solution".
 model: sonnet
 color: green
-skills: audit-prompt, build-eval-dataset, chain-prompts, design-agent-system, design-automation, design-eval-framework, develop-strategy, engineer-prompts, evaluate-ai-output, produce-deliverable, refactor-prompt, score-prompt-quality, skill-creator, synthesize-research
+skills:
+  - audit-prompt
+  - build-eval-dataset
+  - build-slide-deck
+  - chain-prompts
+  - design-agent-system
+  - design-automation
+  - design-eval-framework
+  - develop-strategy
+  - engineer-prompts
+  - evaluate-ai-output
+  - produce-deliverable
+  - refactor-prompt
+  - score-prompt-quality
+  - skill-creator
+  - synthesize-research
 context: fork
 ---
 
