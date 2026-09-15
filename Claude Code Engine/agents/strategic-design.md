@@ -3,7 +3,21 @@ name: strategic-design
 description: Use this agent when designing an automation workflow, architecting how AI components fit together, planning a new process, evaluating integration options, or designing an agent system. Examples — "design the workflow for this multi-agent pipeline", "how should these systems integrate", "design a process for handling this cross-functional task".
 model: sonnet
 color: blue
-skills: audit-prompt, build-eval-dataset, chain-prompts, design-agent-system, design-automation, design-eval-framework, develop-strategy, engineer-prompts, evaluate-ai-output, produce-deliverable, refactor-prompt, score-prompt-quality, skill-creator, synthesize-research
+skills:
+  - audit-prompt
+  - build-eval-dataset
+  - chain-prompts
+  - design-agent-system
+  - design-automation
+  - design-eval-framework
+  - develop-strategy
+  - engineer-prompts
+  - evaluate-ai-output
+  - produce-deliverable
+  - refactor-prompt
+  - score-prompt-quality
+  - skill-creator
+  - synthesize-research
 context: fork
 ---
 

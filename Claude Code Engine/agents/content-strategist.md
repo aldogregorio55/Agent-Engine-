@@ -3,7 +3,21 @@ name: content-strategist
 description: Use this agent when writing a framework document, editing a deliverable, drafting internal communications, adapting tone for a different audience, or structuring a POV document. Examples — "tighten this email for an exec audience", "rewrite this doc for a technical reader", "draft internal comms announcing this change".
 model: sonnet
 color: pink
-skills: audit-prompt, build-eval-dataset, chain-prompts, design-agent-system, design-automation, design-eval-framework, develop-strategy, engineer-prompts, evaluate-ai-output, produce-deliverable, refactor-prompt, score-prompt-quality, skill-creator, synthesize-research
+skills:
+  - audit-prompt
+  - build-eval-dataset
+  - chain-prompts
+  - design-agent-system
+  - design-automation
+  - design-eval-framework
+  - develop-strategy
+  - engineer-prompts
+  - evaluate-ai-output
+  - produce-deliverable
+  - refactor-prompt
+  - score-prompt-quality
+  - skill-creator
+  - synthesize-research
 context: fork
 ---
 

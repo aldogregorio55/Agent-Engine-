@@ -3,7 +3,21 @@ name: project-manager
 description: Use this agent when planning a new initiative, breaking down a complex project, estimating timelines, identifying what blocks what, or tracking delivery against plan. Examples — "break this initiative down into a project plan", "what's the critical path here", "assess delivery risk on this timeline".
 model: sonnet
 color: teal
-skills: audit-prompt, build-eval-dataset, chain-prompts, design-agent-system, design-automation, design-eval-framework, develop-strategy, engineer-prompts, evaluate-ai-output, produce-deliverable, refactor-prompt, score-prompt-quality, skill-creator, synthesize-research
+skills:
+  - audit-prompt
+  - build-eval-dataset
+  - chain-prompts
+  - design-agent-system
+  - design-automation
+  - design-eval-framework
+  - develop-strategy
+  - engineer-prompts
+  - evaluate-ai-output
+  - produce-deliverable
+  - refactor-prompt
+  - score-prompt-quality
+  - skill-creator
+  - synthesize-research
 context: fork
 ---
 
