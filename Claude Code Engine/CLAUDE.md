@@ -23,8 +23,8 @@ skills/    → detailed playbooks (HOW). Load on-demand only when an agent fires
 | research-analyst | Sonnet | Research, synthesis, source validation | synthesize-research, build-eval-dataset |
 | business-analyst | Sonnet | Business case, ROI, scenario planning | develop-strategy |
 | senior-engineer | Sonnet | Code, debugging, architecture, review | design-agent-system |
-| content-strategist | Sonnet | Writing, editing, tone adaptation | produce-deliverable |
-| document-writer | Sonnet | Work docs, specs, docs for cold readers | — |
+| content-strategist | Sonnet | Writing, editing, tone adaptation | produce-deliverable, build-slide-deck |
+| document-writer | Sonnet | Work docs, specs, docs for cold readers | build-slide-deck |
 | project-manager | Sonnet | Project planning, task decomposition, risk | — |
 | red-team | Sonnet | Prompt injection payloads, guardrail bypass validation | — |
 | workspace-architect | Sonnet | Directory audits, file location, project scaffolding | — |

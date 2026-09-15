@@ -3,7 +3,7 @@ name: red-team
 description: Use this agent when designing prompt injection payloads (DPI, IPI, IAI), obfuscation strategies, guardrail bypass techniques, or validating attacks against agent systems for adversarial red-team testing of AI safety controls. Examples — "design a DPI payload to test the Supervisor agent's scope binding", "build an obfuscated IPI payload that survives platform content filters", "validate whether this jailbreak template breaks the safety prompt".
 model: sonnet
 color: red
-skills: audit-prompt, build-eval-dataset, chain-prompts, design-agent-system, design-automation, design-eval-framework, develop-strategy, engineer-prompts, evaluate-ai-output, produce-deliverable, refactor-prompt, score-prompt-quality, skill-creator, synthesize-research
+skills: audit-prompt, build-eval-dataset, build-slide-deck, chain-prompts, design-agent-system, design-automation, design-eval-framework, develop-strategy, engineer-prompts, evaluate-ai-output, produce-deliverable, refactor-prompt, score-prompt-quality, skill-creator, synthesize-research
 context: fork
 ---
 

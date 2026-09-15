@@ -6,6 +6,7 @@ color: green
 skills:
   - audit-prompt
   - build-eval-dataset
+  - build-slide-deck
   - chain-prompts
   - design-agent-system
   - design-automation
