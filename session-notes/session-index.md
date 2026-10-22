@@ -1,6 +1,6 @@
 # Session Index — Prompt Engineering Engine
 
-Master index of all session notes across workstreams. Use `session-note-template.md` at the project root when creating new entries.
+Master index of all session notes across workstreams. Use `session-note-template.md` (in this folder) when creating new entries.
 
 ---
 

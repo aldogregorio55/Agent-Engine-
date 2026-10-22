@@ -16,8 +16,8 @@ Built for use with GitHub Copilot in VS Code (Path A — manual context loading)
 | [prompting/](prompting/) | Prompt-engineering craft. Contains the master context (house standard) plus dissected reference prompts and skill-creation guides. |
 | [prompting/prompt-engineering-master-context.md](prompting/prompt-engineering-master-context.md) | **Canonical reference** for how we structure and write prompts. |
 | [prompting/skill-creator.md](prompting/skill-creator.md) / [skill-creator-dissected.md](prompting/skill-creator-dissected.md) | Skill-authoring reference and annotated breakdown. |
-| [path-b-api-agent-future.md](path-b-api-agent-future.md) | Parked design for API-native automation. |
-| [session-index.md](session-index.md) / [session-note-template.md](session-note-template.md) | Session tracking. |
+| [planning/path-b-api-agent-future.md](planning/path-b-api-agent-future.md) | Parked design for API-native automation. |
+| [session-notes/](session-notes/) — [session-index.md](session-notes/session-index.md) / [session-note-template.md](session-notes/session-note-template.md) | Session tracking. |
 | [Claude Code Engine/agents/](Claude%20Code%20Engine/agents/) | Agent context modules (research, prompt-architect, senior-engineer, etc.). Load with `#file:` in Copilot; also the source-of-truth for Claude Code agents installed to `~/.claude/agents/`. |
 | [Claude Code Engine/skills-transfer-pack.md](Claude%20Code%20Engine/skills-transfer-pack.md) | Single-file installer bundle of 12 Claude Code SKILL.md files with agent-wiring table. |
 | [Claude Code Engine/memory-system.md](Claude%20Code%20Engine/memory-system.md) / [claude-engine-transfer.md](Claude%20Code%20Engine/claude-engine-transfer.md) | Memory-system design and portable transfer notes for the Claude Code engine. |
