@@ -56,6 +56,8 @@ outputs/*/*
 # Agent outputs (transient working files — the whole folder is ignored;
 # move a file out to another folder to track it in git)
 agent-outputs/
+# Exception: local-engine project outputs are tracked
+!local-engine/agent-outputs/
 
 # Threat-detection test specimens — local-only eval fixtures. Specimen 2 contains
 # intentional, benign attack-shaped content (fake credential names + an exfil

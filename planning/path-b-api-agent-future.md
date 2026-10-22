@@ -1,5 +1,7 @@
 # Path B — API-Native Agent Automation
 
+> **Superseded 2026-10-22** by `local-engine/README.md` (local open-weight models via Ollama + OpenCode + promptfoo; no paid API keys needed).
+
 **Status:** Parked. Build after API access is available.
 **Last noted:** 2026-04-06
 
