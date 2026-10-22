@@ -1,12 +1,16 @@
-# Prompt Engineering Engine
+# Agent Engine
 
-**Purpose.** This repo is the **main hub for my work as a prompt engineer.** It's where the craft lives — the house standard for how prompts are structured and written, the agent and skill libraries that support that work, ongoing certification study, and the per-engagement workspaces where prompts are actually produced.
+**Purpose.** This repo is a **general home base for my AI work**: the agent and skill libraries, prompting standards, knowledge modules, certification study, projects, and per-engagement workspaces.
 
-**The primary output of this hub is prompts** — for chat, for agents, for skills, for automations. Everything else (agents, knowledge modules, certification notes, orchestrator rules) exists to make those prompts sharper, more consistent, and more reusable.
+**Tool-agnostic.** The system is plain markdown, written so any LLM can read and use it, mostly coding agents such as GitHub Copilot and Claude Code.
 
-**Canonical reference: [prompting/prompt-engineering-master-context.md](prompting/prompt-engineering-master-context.md).** This is the house standard for how we structure and write prompts. When in doubt about form, structure, tone, or technique, that document wins. All other material in this repo is either supporting infrastructure or applied output of that standard.
+**Prompting reference: [prompting/prompt-engineering-master-context.md](prompting/prompt-engineering-master-context.md).** The house standard for how prompts are structured and written. For prompt work, it wins on form, structure, tone and technique.
 
-Built for use with GitHub Copilot in VS Code (Path A — manual context loading), with a parked Path B for future API-native automation.
+## Projects
+
+| Project | Status | What it is |
+|---|---|---|
+| [local-engine/](local-engine/) | Phase 0 complete, next Phase 1 | A personal open-weight LLM system: a backup to Claude Code, a way to learn how local models work, and freedom to use any model provider. Ollama + OpenCode + promptfoo. Start at [local-engine/README.md](local-engine/README.md). |
 
 ## What's Here
 
@@ -30,7 +34,7 @@ Built for use with GitHub Copilot in VS Code (Path A — manual context loading)
 
 ## How to Use
 
-1. Open a new Copilot chat.
+1. Open a new chat in any coding agent (GitHub Copilot, Claude Code, etc.).
 2. Load [work-engine-orchestrator.md](work-engine-orchestrator.md) + the relevant [Claude Code Engine/agents/](Claude%20Code%20Engine/agents/) module + any needed [knowledge/](knowledge/) files.
 3. If the task is prompt authoring, also load [prompting/prompt-engineering-master-context.md](prompting/prompt-engineering-master-context.md) as the structural reference.
 4. State the task — loaded context sets the operating mode.
