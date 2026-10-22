@@ -17,7 +17,7 @@ This section is the persistent memory layer. It is updated at the end of session
 - No engagements running yet
 
 ### Standing Decisions
-- Path B (API-native automation) parked until API keys available — see `path-b-api-agent-future.md`
+- Path B (API-native automation) parked until API keys available — see `planning/path-b-api-agent-future.md`
 - Primary interface: GitHub Copilot in VS Code
 - Models available: Claude Sonnet (default), Claude Opus (complex reasoning), GPT-4o, GPT-4.1, GPT-4.5
 - Prompt library not yet started — convention defined (`prompts/[name]_v[X.X].md`) but no prompts stored yet
